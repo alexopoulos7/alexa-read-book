@@ -1,0 +1,10 @@
+YesIntent yes
+YesIntent sure
+YesIntent of course
+
+NoIntent no
+NoIntent go away
+
+CancelIntent cancel
+
+StopIntent stop

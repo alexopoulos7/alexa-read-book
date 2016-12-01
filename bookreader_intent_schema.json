@@ -1,0 +1,8 @@
+{
+ "intents": [
+  {"intent":"YesIntent"},
+  {"intent":"NoIntent"},
+  {"intent":"CancelIntent"},
+  {"intent":"StopIntent"}
+ ]
+}
