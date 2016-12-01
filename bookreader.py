@@ -8,11 +8,9 @@ ask = Ask(app, "/book_reader")
 
 def get_book_text():
     try:
-
+        # The Time Machine, by H. G. Wells [1898]
         target_url = 'http://www.gutenberg.org/cache/epub/35/pg35.txt'
-
         txt = " ".join(urllib.urlopen(target_url).readlines()[20:50])
-
     except Exception as e:
         txt = str(e)
     # print txt
